@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Form</title><center><span style="font-family:fantasy;font-size: xxx-large;color:chocolate">The Edu Event</span></center>
+    </head>
+    <body bgcolor="indigo"><hr>
+    <form action="/action_page.php" method="get" id="form1">
+    <fieldset><legend><span style="font-family:fantasy;color:chocolate;font-size: x-large;">Personal Information</span></legend>
+        <span style="font-family:fantasy;color:chocolate;font-size:large;">
+        <label type="fname">First Name:</label>
+        <input type="text" name="fname" value="First">
+        <label type="fname">Last Name:</label>
+        <input type="text" name="fname" value="Last">
+        <label type="fname">Email:</label>
+        <input type="text" name="mail" value="Contest@example.com">
+        <label type="date">Date:</label>
+        <input type="date" name="date">
+        <label type="fname">Phone no:</label>
+        <input type="text" name="Phno" value="00000 00000"><br>
+        <label type="text" name="UniID" >University ID:</label>
+        <input type="file" name="UniID" >
+        </span>
+    </fieldset>
+
+    <fieldset><legend><span style="font-family:fantasy;color:chocolate;font-size: x-large;">Lecture</span></legend>
+        <span style="font-family:fantasy;color:chocolate;font-size: large;">Event lecture:
+            <select name="Event" size="1" multiple>
+            <option value="select">-select-</option>
+            <option value="Nano">Nanotechnology in medical sciences</option>
+            <option value="Data Analysis Bio">Large scale data analysis in Biotechnology</option>
+            <option value="DSCA">Computer architecture and manufacture of PCB</option>
+        </select>
+       </span>
+    </fieldset>
+    <fieldset><legend><span style="font-family:fantasy;color:chocolate;font-size: x-large;">Contest</span></legend>
+        <span style="font-family:fantasy;color:chocolate;font-size: large;">
+
+        <input type="checkbox" id="con1" name=" Edu_contest1" value="Dance">
+        <label for="con1">Dance</label><br>
+    
+        <input type="checkbox" id="con2" name=" Edu_contest2" value="arduino mouse maze solver">
+        <label for="con2">arduino mouse maze solver</label><br>
+
+        <input type="checkbox" id="con3" name=" Edu_contest3" value="Treasure hunt">
+        <label for="con3">Treasure hunt</label><br>
+    </span> 
+    </fieldset>
+    <fieldset><legend><span style="font-family:fantasy;color:chocolate;font-size: x-large;">Registrating As</span></legend>
+        <span style="font-family:fantasy;color:chocolate;font-size: large;">
+        <input type="radio" id="stud" name="Student" value="Student">
+        <label for="stud">Student:</label>
+
+        <input type="radio" id="teach" name="Teacher" value="Teacher">
+        <label for="teach">Teacher:</label>
+
+        <input type="radio" id="par" name="Parent" value="Parent">
+        <label for="par">Parent:</label>
+
+        <input type="radio" id="oth" name="Other" value="Other">
+        <label for="oth">Other:</label>
+        </span>
+    </fieldset>
+
+    <fieldset><legend><span style="font-family:fantasy;color:chocolate;font-size: x-large;">Additional Info</span></legend>
+        <span style="font-family:fantasy;color:chocolate;font-size: large;">
+        <textarea name="comments" rows="10" cols="30">Comments
+        </textarea><br>
+        Volunteering:<br>
+        <input type="checkbox" id="vol" name="Yes" value="Yes">
+        <label for="volY">I would love to help in future events</label><br>
+
+        <input type="checkbox" id="vol" name="No" value="No">
+        <label for="vol">Not interested</label>
+        </span>
+    </fieldset>
+
+    <img src="">
+    <button type="submit" form="form1" value="Submit">Submit</button>
+    <button type="reset" form="form1" value="reset">Reset</button>
+
+
+
+    
+
+
+
+
+    </body>
+
+</html>
